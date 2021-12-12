@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/cadenas_logo.png">
+</head>
+<body id="body_generator">
+    <nav class="nav" id="nav">
+        <div id="nav_part_2">
+            <li>
+                <a href="index.html" id="btn1" class="btn">
+                    <h>
+                        Generator
+                    </h>
+                </a>
+                <a href="#" id="btn2" class="btn">
+                    <h>
+                        Contact
+                    </h>
+                </a>
+                <a href="#" id="btn3" class="btn">
+                    <h>
+                        Discord
+                    </h>
+                </a>
+            </li>
+        </div>
+    </nav>
+    <div class="container_title">
+        <h1 id="title_generator">Password Generator</h1>
+    </div>
+    <div class="generation">
+        <input id="Generator_champ" class="Generator_champ" placeholder="Your password here"/>
+        <input id="generator_btn" type="button" value="Generate" onclick="generate();"/>
+    </div>
+    <div id="features_list">
+        <div class="upper">
+            <input type="checkbox" id="upper" name="upper">
+            <label for="scales">Upper case</label>
+        </div>
+        
+        <div class="lower">
+            <input type="checkbox" id="lower" name="lower" >
+            <label for="horns">Lower case</label>
+        </div>
+
+        <div class="number">
+            <input type="checkbox" id="number" name="number" checked>
+            <label for="horns">Numbers</label>
+        </div>
+
+        <div class="other">
+            <input type="checkbox" id="other" name="other" >
+            <label for="horns">Special Characters</label>
+        </div>
+
+        <div class="lenght_title">
+            Password length
+        </div>
+        <div class="lenght_value">
+            <span class="next" onclick="nextNum();"></span>
+            <span class="prev" onclick="prevNum();"></span>
+            <div id="box"></div>
+        </div>
+    </div>
+
+    <img src="Images\password_mooving.png" alt="Générateur de mot de passe"  id="Img_generator_page">
+    <footer class="footer">Footer Created By Wiliwiker</footer>
+</body>
+<script src="script.js"></script>
+</html>
