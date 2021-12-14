@@ -154,7 +154,7 @@ h1
                      rgba(255,255,255,.8) 99%,
                      rgba(255,255,255,0) 100%
                  ) no-repeat;
-    background-position: -900px 0;
+    background-position: -110% 0;
 }
 
 .container_title #title_generator:hover::after,
