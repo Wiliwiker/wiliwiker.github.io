@@ -44,8 +44,8 @@ body
     background-attachment: fixed;
     background-size: 100% 100%;
     bottom: 0;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
 
 nav.nav
