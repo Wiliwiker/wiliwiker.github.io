@@ -154,13 +154,13 @@ h1
                      rgba(255,255,255,.8) 99%,
                      rgba(255,255,255,0) 100%
                  ) no-repeat;
-    background-position: 0 0;
+    background-position:  0;
 }
 
 .container_title #title_generator:hover::after,
 .container_title #title_generator:focus::after{
     transition: background-position 2s;
-    background-position: 100px 0;
+    background-position: -1000px 0;
 }
 
 .generation
