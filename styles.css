@@ -178,7 +178,7 @@ h1
 #generator_btn
 {
     grid-column: 1/4;
-    grid-row: 2;
+    grid-row: 2; 
     background: #15d798;
     background: linear-gradient(-50deg, #425cf0, #15d798);
     border-radius: 1000px;
